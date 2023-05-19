@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <button onclick="fillCountTable()">Count selected words</button>
+
+    <table id="count-table">
+      <tr>
+        <td>Word count:</td>
+        <td id='words'></td>
+      </tr>
+      <tr>
+        <td>Character count (with whitespace):</td>
+        <td id='chars'></td>
+      </tr>
+      <tr>
+        <td>Character count (without whitespace):</td>
+        <td id='chars-no-space'></td>
+      </tr>
+    </table>
+
+  </body>
+  <script src="popup.js"></script>
+</html>
